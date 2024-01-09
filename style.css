@@ -1,4 +1,64 @@
-body{
+*{
     background-color:black;
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    font-family:roboto condensed;
+    font-size:30px;
     color:white;
 }
+h2{
+    color:#90D9B8;
+}
+p{
+    
+    
+    font-size:18px;
+    font-family:dosis;
+
+}
+nav>ul{
+    display:flex;
+    align-items: center;
+}
+nav li{
+    list-style:none;
+    margin-right:50px;
+   
+    
+
+}
+nav a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Dosis', sans-serif;font-size:18px;
+    text-transform: capitalize;
+
+}
+.button-primary{
+    color:black;
+    background-color:#90D9B8;
+    border:0;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Dosis', sans-serif;
+    padding:15px 33px;
+    text-transform: capitalize;
+
+
+}
+li:active{
+    color:#90D9B8;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+/*practise here*/
+
