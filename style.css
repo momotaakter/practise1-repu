@@ -5,25 +5,37 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Dosis', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 }
+body{
+  margin:2%;
+  
+}
 
 h1{
     font-family:roboto condensed;
     font-size:30px;
     color:white;
+   letter-spacing: 2px;
+
+}
+.hero-text{
+    font-family:roboto condensed;
+    font-size:50px;
+    color:white;
+   letter-spacing: 2px;
 }
 h2{
-    color:#90D9B8;
+    color:#50E6A5;
 }
 p{
     
-    
+    color:white;
     font-size:18px;
     font-family:dosis;
 
 }
 nav>ul{
     display:flex;
-    align-items: center;
+    align-items:center;
 }
 nav li{
     list-style:none;
@@ -41,7 +53,7 @@ nav a{
 }
 .button-primary{
     color:black;
-    background-color:#90D9B8;
+    background-color:#50E6A5;
     border:0;
     font-size:18px;
     font-weight:bold;
@@ -52,13 +64,225 @@ nav a{
 
 }
 li:active{
-    color:#90D9B8;
+    color:#50E6A5;
 }
 nav{
     display:flex;
     justify-content: space-between;
    
 }
+/*my portfolio hero css start here*/
+.hero-section{
+    display: flex;
+   
+    margin-top:20px;
+    width:100%;
+    align-items:center;
+    
+}
+.hero-image{
+    width:600px;
+}
 
-/*practise here*/
+.content-div{
+    width:50%;
+ 
+   
+}
+
+
+/*my main work start here*/
+.service{
+    text-align: center;
+    color:#50E6A5;
+    font-size:19px;
+ 
+}
+.service2{
+    text-align: center;
+    color:white;
+    margin-top:-10px;
+    
+    font-size:50px;
+    padding:0 100px 0 100px;
+}
+.ontherpractise{
+    display:flex;
+    margin-top:90px;
+    padding:30px;
+   
+}
+/*about section*/
+
+.about-section{
+    display:flex;
+    margin-top:70px;
+    width:100%;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.about{
+    text-align: left;
+    color:#50E6A5;
+    font-size:19px;
+    text-transform: uppercase;
+}
+.child-about{
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+#hrr{
+   width:200px;
+   height:1px;
+   align-items:start;
+   background-color: #50E6A5;
+    
+}
+#imgeee{
+    border:3px solid black;
+border-top:30px solid #50E6A5;
+border-right:30px solid #50E6A5;
+width:600px;
+
+}
+/*design section start here*/
+#id-design{
+    font-size:50px;
+    
+}
+form{
+    width: 80%;
+}
+.design-section{
+    display:flex;
+   
+  
+    margin-top:90px;
+    align-items:start;
+    justify-content:space-between;
+padding-bottom:100px;
+
+}
+input{
+    width:100%;
+    padding:15px;
+    border:1px solid #50E6A5;
+    background-color:black;
+    font-size:18px;
+    font-family:Dosis;
+    color:white;
+    margin-bottom:19px;
+
+}
+#text-area{
+    height:100px;
+}
+
+
+/*design section end*/
+
+
+    
+
+
+.hero-image .hero-section{
+    width:500px;
+}
+.education-text{
+display:flex;
+align-items:center;
+justify-items:center;
+margin-top:120px;
+
+}
+.box-model{
+    border:2px solid #50E6A5;
+    padding:10px 20px;
+    color:#50E6A5;
+display:inline;
+}
+.padding-area{
+    padding:0 50px;
+}
+.padding{
+    margin-top:40px;;
+}
+/*progressbar area start*/
+
+.contact-area{
+  
+    
+
+ 
+    margin-top:80px;
+    
+}
+.input-section{
+    border:1px solid #50e6a585;
+    padding:26px 70px;
+    display:inline;
+   margin-top:90px;
+   margin-left:28%;
+ 
+
+}
+#first-input{
+    border:none;
+    width: 20%;
+    background-color: black;
+    font-size:20px;
+    font-family:Dosis;
+    text-transform:capitalize;
+}
+
+
+.footer-area{
+    display:flex;
+    align-items:center;
+    margin-top:80px;
+    justify-content:space-between;
+}
+.iconh1{
+    line-height:3px;
+    margin-left:40px;
+
+}
+.icons{
+    margin-top:70px;
+   
+
+    
+}
+#breakline{
+    width:80%;
+    margin-top:40px;
+   
+    background-color:#50e6a541;
+    height:1px;
+    border:none;
+
+}
+.footer-last{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#first-button{
+    background-color: black;
+    color:white;
+    border:1px solid #50e6a53f;
+    margin-left:20px;
+
+}
+
+
+
+
+
 
